@@ -1,0 +1,404 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mara Santos Crochês</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <h1>Mara Santos Crochês</h1>
+            <h2 style="font-size: 20px; 
+            padding-top: 15px;
+            padding-bottom: 5px;"
+            >
+                Todas as peças são exclusivas e feitas artesanalmente
+            </h2>
+        <nav>
+            <a href="#contact-info">Outras Formas de Contato</a>
+        </nav>
+    </header>
+    
+    <main>
+        <h1>Produtos</h1>
+        <section id="products">
+            <!-- Produtos 1 a 9 -->
+            <div class="product">
+                <img src="img/Bolsa1img1.jpeg" alt="Produto 1">
+                <div class="description">
+                    <h2>bolsa lateral em fio náutico preto</h2>
+                    <p>fecho imantado e pingente coração.</p>
+                    <p>Preço: R$ 130,00</p>
+                    <button onclick="openCarousel('carousel1')">Ver Imagens</button>
+                </div>
+            </div>
+            <div class="product">
+                <img src="img/Bolsa2img1.jpeg" alt="Produto 2">
+                <div class="description">
+                    <h2>Bolsa em malha premium</h2>
+                    <p>espaçosa e suoer leve.</p>
+                    <p>Preço: R$ 140,00</p>
+                    <button onclick="openCarousel('carousel2')">Ver Imagens</button>
+                </div>
+            </div>
+            <div class="product">
+                <img src="img/bolsa3img1.jpeg" alt="Produto 3">
+                <div class="description">
+                    <h2>bolsa verde militar</h2>
+                    <p>fio anturio com alça lateral em corrente de alumínio dourada e alça de mão em fio duplo.</p>
+                    <p>Preço: R$ 220,00</p>
+                    <button onclick="openCarousel('carousel3')">Ver Imagens</button>
+                </div>
+            </div>
+            <div class="product">
+                <img src="img/bolsa4img1.jpeg" alt="Produto 4">
+                <div class="description">
+                    <h2>maleta de mão</h2>
+                    <p>cor castanha em fio anturio alça e fundo de couro fecho em alumínio dourado.</p>
+                    <p>Preço: R$ 180,00</p>
+                    <button onclick="openCarousel('carousel4')">Ver Imagens</button>
+                </div>
+            </div>
+            <div class="product">
+                <img src="img/bolsa5img1.jpeg" alt="Produto 5">
+                <div class="description">
+                    <h2>bolsa sacola mescla</h2>
+                    <p>fio anturio em squart super espaçosa.</p>
+                    <p>Preço: R$ 200,00</p>
+                    <button onclick="openCarousel('carousel5')">Ver Imagens</button>
+                </div>
+            </div>
+            <div class="product">
+                <img src="img/bolsa6img1.jpeg" alt="Produto 6">
+                <div class="description">
+                    <h2>Bolsa de praia</h2>
+                    <p>fio náutico  com fundo quadrado Verde limão.</p>
+                    <p>Preço: R$ 150,00</p>
+                    <button onclick="openCarousel('carousel6')">Ver Imagens</button>
+                </div>
+            </div>
+            <div class="product">
+                <img src="img/bolsa7img1.jpeg" alt="Produto 7">
+                <div class="description">
+                    <h2>Bolsa lateral</h2>
+                    <p>Bolsa lateral em tom terra cota com detalhes em prata.</p>
+                    <p>Preço: R$ 180,00</p>
+                    <button onclick="openCarousel('carousel7')">Ver Imagens</button>
+                </div>
+            </div>
+            <div class="product">
+                <img src="img/bolsa8img1.jpeg" alt="Produto 8">
+                <div class="description">
+                    <h2>Bolsa lateral preta</h2>
+                    <p>Bolsa lateral preta com fundo e alça de couro , fechamento em zíper.</p>
+                    <p>Preço: R$ 180,00</p>
+                    <button onclick="openCarousel('carousel8')">Ver Imagens</button>
+                </div>
+            </div>
+            <div class="product">
+                <img src="img/bolsa9img1.jpeg" alt="Produto 9">
+                <div class="description">
+                    <h2>Bolsa de Ombro castanha</h2>
+                    <p> Bolsa de Ombro castanha com lurex cobre , detalhes em dourado.</p>
+                    <p>Preço: R$ 160,00</p>
+                    <button onclick="openCarousel('carousel9')">Ver Imagens</button>
+                </div>
+            </div>
+
+            <!-- Produtos 10 a 20 (ocultos inicialmente) -->
+            <div class="product hidden">
+                <img src="img/bolsa10img1.jpeg" alt="Produto 10">
+                <div class="description">
+                    <h2>Bolsa lateral com lurex</h2>
+                    <p>Bolsa lateral com lurex cobre alça em fio no mesmo material que a bolsa confeccionado a mão  em tom terra molhada.</p>
+                    <p>Preço: R$ 170,00</p>
+                    <button onclick="openCarousel('carousel10')">Ver Imagens</button>
+                </div>
+            </div>
+            <div class="product hidden">
+                <img src="img/bolsa11img1.jpeg" alt="Produto 11">
+                <div class="description">
+                    <h2>bolsa preta modelo famoso</h2>
+                    <p>bolsa preta modelo famoso com detalhes em alumínio dourado e super leve e elegante.</p>
+                    <p>Preço: R$ 190,00</p>
+                    <button onclick="openCarousel('carousel11')">Ver Imagens</button>
+                </div>
+            </div>
+            <div class="product hidden">
+                <img src="img/bolsa12img1.jpeg" alt="Produto 12">
+                <div class="description">
+                    <h2>Bolsa de praia</h2>
+                    <p>Bolsa de praia estilosa e leve.</p>
+                    <p>Preço: R$ 150,00</p>
+                    <button onclick="openCarousel('carousel12')">Ver Imagens</button>
+                </div>
+            </div>
+            <div class="product hidden">
+                <img src="img/bolsa13img1.jpeg" alt="Produto 13">
+                <div class="description">
+                    <h2>Bolsa de malha premium</h2>
+                    <p>Bolsa de malha premium com brilho leve e despojada.</p>
+                    <p>Preço: R$ 130,00</p>
+                    <button onclick="openCarousel('carousel13')">Ver Imagens</button>
+                </div>
+            </div> <br>
+            <!--
+            <div class="product hidden">
+                <img src="https://via.placeholder.com/100/00FFFF" alt="Produto 14">
+                <div class="description">
+                    <h2>Produto 14</h2>
+                    <p>Descrição do Produto 14.</p>
+                    <p>Preço: R$ 180,00</p>
+                    <button onclick="openCarousel('carousel14')">Ver Imagens</button>
+                </div>
+            </div>
+            <div class="product hidden">
+                <img src="https://via.placeholder.com/100/FF6600" alt="Produto 15">
+                <div class="description">
+                    <h2>Produto 15</h2>
+                    <p>Descrição do Produto 15.</p>
+                    <p>Preço: R$ 190,00</p>
+                    <button onclick="openCarousel('carousel15')">Ver Imagens</button>
+                </div>
+            </div>
+            <div class="product hidden">
+                <img src="https://via.placeholder.com/100/00FF66" alt="Produto 16">
+                <div class="description">
+                    <h2>Produto 16</h2>
+                    <p>Descrição do Produto 16.</p>
+                    <p>Preço: R$ 200,00</p>
+                    <button onclick="openCarousel('carousel16')">Ver Imagens</button>
+                </div>
+            </div>
+            <div class="product hidden">
+                <img src="https://via.placeholder.com/100/FF0066" alt="Produto 17">
+                <div class="description">
+                    <h2>Produto 17</h2>
+                    <p>Descrição do Produto 17.</p>
+                    <p>Preço: R$ 210,00</p>
+                    <button onclick="openCarousel('carousel17')">Ver Imagens</button>
+                </div>
+            </div>
+            <div class="product hidden">
+                <img src="https://via.placeholder.com/100/6600FF" alt="Produto 18">
+                <div class="description">
+                    <h2>Produto 18</h2>
+                    <p>Descrição do Produto 18.</p>
+                    <p>Preço: R$ 220,00</p>
+                    <button onclick="openCarousel('carousel18')">Ver Imagens</button>
+                </div>
+            </div>
+            <div class="product hidden">
+                <img src="https://via.placeholder.com/100/33FF99" alt="Produto 19">
+                <div class="description">
+                    <h2>Produto 19</h2>
+                    <p>Descrição do Produto 19.</p>
+                    <p>Preço: R$ 230,00</p>
+                    <button onclick="openCarousel('carousel19')">Ver Imagens</button>
+                </div>
+            </div>
+            <div class="product hidden">
+                <img src="https://via.placeholder.com/100/FF3399" alt="Produto 20">
+                <div class="description">
+                    <h2>Produto 20</h2>
+                    <p>Descrição do Produto 20.</p>
+                    <p>Preço: R$ 240,00</p>
+                    <button onclick="openCarousel('carousel20')">Ver Imagens</button>
+                </div>
+            </div>
+        
+    -->
+</section>
+        <center>
+            <!-- Botão "Ver Mais" -->
+            <div id="show-more-container">
+                <button id="show-more-button">Ver Mais</button>
+            </div>
+        </center>
+
+        <!-- Seção de Contato -->
+        <section id="contact">
+            <h2 style="text-align: center;">Formas de Contato</h2>
+            <div id="contact-info">
+                <p>Todas as peças são exclusivas e feitas artesanalmente</p>
+                <p>Entregas para todo Brasil por via correios!</p>
+                <p>Preferencia, chamar no WhatsApp.</p>
+                <p>Telefone: (11) 96583-2705</p>
+                <p>Redes Sociais:</p>
+                <p>
+                    <a href="https://www.instagram.com/marasantoscroches/" target="_blank">Instagram</a>
+                </p>
+            </div>
+        </section>
+    </main>
+
+    <!-- Carrosséis -->
+    <div id="carousel1" class="carousel">
+        <div class="carousel-content">
+            <img src="img/Bolsa1img1.jpeg" alt="Produto 1 Imagem 1">
+            <img src="img/bolsa1img2.jpeg" alt="Produto 1 Imagem 2">
+            <img src="img/bolsa1img3.jpeg" alt="Produto 1 Imagem 3">
+        </div>
+        <button class="close-button" onclick="closeCarousel('carousel1')">X</button>
+    </div>
+    <div id="carousel2" class="carousel">
+        <div class="carousel-content">
+            <img src="img/Bolsa2img1.jpeg" alt="Produto 2 Imagem 1">
+            <!--<img src="https://via.placeholder.com/300/FFCCCC" alt="Produto 2 Imagem 2">
+            <img src="https://via.placeholder.com/300/FFFF99" alt="Produto 2 Imagem 3">-->
+        </div>
+        <button class="close-button" onclick="closeCarousel('carousel2')">X</button>
+    </div>
+    <div id="carousel3" class="carousel">
+        <div class="carousel-content">
+            <img src="img/bolsa3img1.jpeg" alt="Produto 3 Imagem 1">
+            <img src="img/bolsa3img2.jpeg" alt="Produto 3 Imagem 2">
+            <img src="img/bolsa3img3.jpeg" alt="Produto 3 Imagem 3">
+        </div>
+        <button class="close-button" onclick="closeCarousel('carousel3')">X</button>
+    </div>
+    <div id="carousel4" class="carousel">
+        <div class="carousel-content">
+            <img src="img/bolsa4img1.jpeg" alt="Produto 4 Imagem 1">
+            <img src="img/bolsa4img2.jpeg" alt="Produto 4 Imagem 2">
+            <!--<img src="https://via.placeholder.com/300/FFCC66" alt="Produto 4 Imagem 3">-->
+        </div>
+        <button class="close-button" onclick="closeCarousel('carousel4')">X</button>
+    </div>
+    <div id="carousel5" class="carousel">
+        <div class="carousel-content">
+            <img src="img/bolsa5img1.jpeg" alt="Produto 5 Imagem 1">
+            <img src="img/bolsa5img2.jpeg" alt="Produto 5 Imagem 2">
+            <!--<img src="https://via.placeholder.com/300/FF3333" alt="Produto 5 Imagem 3">-->
+        </div>
+        <button class="close-button" onclick="closeCarousel('carousel5')">X</button>
+    </div>
+    <div id="carousel6" class="carousel">
+        <div class="carousel-content">
+            <img src="img/bolsa6img1.jpeg" alt="Produto 6 Imagem 1">
+            <img src="img/bolsa6img2.jpeg" alt="Produto 6 Imagem 2">
+            <!--<img src="https://via.placeholder.com/300/33CCFF" alt="Produto 6 Imagem 3">-->
+        </div>
+        <button class="close-button" onclick="closeCarousel('carousel6')">X</button>
+    </div>
+    <div id="carousel7" class="carousel">
+        <div class="carousel-content">
+            <img src="img/bolsa7img1.jpeg" alt="Produto 7 Imagem 1">
+            <img src="img/bolsa7img2.jpeg" alt="Produto 7 Imagem 2">
+            <!--<img src="https://via.placeholder.com/300/FF0099" alt="Produto 7 Imagem 3">-->
+        </div>
+        <button class="close-button" onclick="closeCarousel('carousel7')">X</button>
+    </div>
+    <div id="carousel8" class="carousel">
+        <div class="carousel-content">
+            <img src="img/bolsa8img1.jpeg" alt="Produto 8 Imagem 1">
+            <img src="img/bolsa8img2.jpeg" alt="Produto 8 Imagem 2">
+            <!--<img src="https://via.placeholder.com/300/CC0066" alt="Produto 8 Imagem 3">-->
+        </div>
+        <button class="close-button" onclick="closeCarousel('carousel8')">X</button>
+    </div>
+    <div id="carousel9" class="carousel">
+        <div class="carousel-content">
+            <img src="img/bolsa9img2.jpeg" alt="Produto 9 Imagem 1">
+            <!--<img src="https://via.placeholder.com/300/3333FF" alt="Produto 9 Imagem 2">
+            <img src="https://via.placeholder.com/300/0000FF" alt="Produto 9 Imagem 3">-->
+        </div>
+        <button class="close-button" onclick="closeCarousel('carousel9')">X</button>
+    </div>
+    <div id="carousel10" class="carousel">
+        <div class="carousel-content">
+            <img src="img/bolsa10img1.jpeg" alt="Produto 10 Imagem 1">
+            <!--<img src="https://via.placeholder.com/300/FF6666" alt="Produto 10 Imagem 2">
+            <img src="https://via.placeholder.com/300/FF9999" alt="Produto 10 Imagem 3">-->
+        </div>
+        <button class="close-button" onclick="closeCarousel('carousel10')">X</button>
+    </div>
+    <div id="carousel11" class="carousel">
+        <div class="carousel-content">
+            <img src="img/bolsa11img1.jpeg" alt="Produto 11 Imagem 1">
+            <!--<img src="https://via.placeholder.com/300/6666FF" alt="Produto 11 Imagem 2">
+            <img src="https://via.placeholder.com/300/9999FF" alt="Produto 11 Imagem 3">-->
+        </div>
+        <button class="close-button" onclick="closeCarousel('carousel11')">X</button>
+    </div>
+    <div id="carousel12" class="carousel">
+        <div class="carousel-content">
+            <img src="img/bolsa12img1.jpeg" alt="Produto 12 Imagem 1">
+            <img src="img/bolsa12img2.jpeg" alt="Produto 12 Imagem 2">
+            <!--<img src="https://via.placeholder.com/300/99FF99" alt="Produto 12 Imagem 3">-->
+        </div>
+        <button class="close-button" onclick="closeCarousel('carousel12')">X</button>
+    </div>
+    <div id="carousel13" class="carousel">
+        <div class="carousel-content">
+            <img src="img/bolsa13img1.jpeg" alt="Produto 13 Imagem 1">
+            <img src="img/bolsa13img2.jpeg" alt="Produto 13 Imagem 2">
+            <!--<img src="https://via.placeholder.com/300/FF99FF" alt="Produto 13 Imagem 3">-->
+        </div>
+        <button class="close-button" onclick="closeCarousel('carousel13')">X</button>
+    </div>
+    <!--
+    <div id="carousel14" class="carousel">
+        <div class="carousel-content">
+            <img src="https://via.placeholder.com/300/00FFFF" alt="Produto 14 Imagem 1">
+            <img src="https://via.placeholder.com/300/66FFFF" alt="Produto 14 Imagem 2">
+            <img src="https://via.placeholder.com/300/99FFFF" alt="Produto 14 Imagem 3">
+        </div>
+        <button class="close-button" onclick="closeCarousel('carousel14')">X</button>
+    </div>
+    <div id="carousel15" class="carousel">
+        <div class="carousel-content">
+            <img src="https://via.placeholder.com/300/FF6600" alt="Produto 15 Imagem 1">
+            <img src="https://via.placeholder.com/300/FF9933" alt="Produto 15 Imagem 2">
+            <img src="https://via.placeholder.com/300/FFCC66" alt="Produto 15 Imagem 3">
+        </div>
+        <button class="close-button" onclick="closeCarousel('carousel15')">X</button>
+    </div>
+    <div id="carousel16" class="carousel">
+        <div class="carousel-content">
+            <img src="https://via.placeholder.com/300/00FF66" alt="Produto 16 Imagem 1">
+            <img src="https://via.placeholder.com/300/33FF99" alt="Produto 16 Imagem 2">
+            <img src="https://via.placeholder.com/300/66FFCC" alt="Produto 16 Imagem 3">
+        </div>
+        <button class="close-button" onclick="closeCarousel('carousel16')">X</button>
+    </div>
+    <div id="carousel17" class="carousel">
+        <div class="carousel-content">
+            <img src="https://via.placeholder.com/300/FF0066" alt="Produto 17 Imagem 1">
+            <img src="https://via.placeholder.com/300/FF3399" alt="Produto 17 Imagem 2">
+            <img src="https://via.placeholder.com/300/FF66CC" alt="Produto 17 Imagem 3">
+        </div>
+        <button class="close-button" onclick="closeCarousel('carousel17')">X</button>
+    </div>
+    <div id="carousel18" class="carousel">
+        <div class="carousel-content">
+            <img src="https://via.placeholder.com/300/6600FF" alt="Produto 18 Imagem 1">
+            <img src="https://via.placeholder.com/300/9933FF" alt="Produto 18 Imagem 2">
+            <img src="https://via.placeholder.com/300/CC66FF" alt="Produto 18 Imagem 3">
+        </div>
+        <button class="close-button" onclick="closeCarousel('carousel18')">X</button>
+    </div>
+    <div id="carousel19" class="carousel">
+        <div class="carousel-content">
+            <img src="https://via.placeholder.com/300/33FF99" alt="Produto 19 Imagem 1">
+            <img src="https://via.placeholder.com/300/66FF66" alt="Produto 19 Imagem 2">
+            <img src="https://via.placeholder.com/300/99FF99" alt="Produto 19 Imagem 3">
+        </div>
+        <button class="close-button" onclick="closeCarousel('carousel19')">X</button>
+    </div>
+    <div id="carousel20" class="carousel">
+        <div class="carousel-content">
+            <img src="https://via.placeholder.com/300/FF3399" alt="Produto 20 Imagem 1">
+            <img src="https://via.placeholder.com/300/FF66CC" alt="Produto 20 Imagem 2">
+            <img src="https://via.placeholder.com/300/FF99CC" alt="Produto 20 Imagem 3">
+        </div>
+        <button class="close-button" onclick="closeCarousel('carousel20')">X</button>
+    </div>
+    -->
+    <!-- Botão Voltar ao Topo -->
+    <button id="back-to-top" onclick="scrollToTop()">↑</button>
+    
+    <script src="javascript.js"></script>
+</body>
+</html>
